@@ -13,7 +13,7 @@ const PAYHERO_BASE_URL = "https://backend.payhero.co.ke";
 // Hardcoded PayHero credentials overriding env variables
 const PAYHERO_AUTH_HEADER =
   "Basic a1FKMHB3YlZRVHhMVjRncjBoTm86MEJDTjBjOUVvUFg0bDh5MHo1R0QyN095alJFU0FIcHd3dDhFMEdlQQ==";
-const PAYHERO_CHANNEL_ID = 15406;
+const PAYHERO_CHANNEL_ID = 15452;
 
 function getAuthHeader(): string {
   // Always use the hardcoded PayHero auth header
@@ -21,7 +21,7 @@ function getAuthHeader(): string {
 }
 
 function getChannelId(): number {
-  // Always use the hardcoded PayHero channel/till ID (15406)
+  // Always use the hardcoded PayHero channel/till ID (15452)
   return PAYHERO_CHANNEL_ID;
 }
 
